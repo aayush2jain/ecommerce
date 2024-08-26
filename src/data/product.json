@@ -1,0 +1,108 @@
+{
+    "product":[
+    {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+    {
+        "id": 2,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+    {
+        "id": 3,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+    {
+        "id": 4,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+    {
+        "id": 5,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+    {
+        "id": 6,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-photo/shirt-clothes_74190-4780.jpg?t=st=1722481942~exp=1722485542~hmac=5d1cd025d58f505a07bb370ad88662908f6e2b1fe225b7b101fe37c7c1f50c76&w=900" 
+    }
+            ],
+    "cartitems":[
+    {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+    {
+        "id": 2,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    }
+    ],
+     "wishitems":[
+    {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+    {
+        "id": 2,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+     {
+        "id": 3,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+     {
+        "id": 4,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+     {
+        "id": 5,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    },
+     {
+        "id": 6,
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "image": "https://img.freepik.com/free-psd/view-hawaiian-shirt-with-pattern_23-2150819250.jpg?t=st=1722489675~exp=1722493275~hmac=686d38c094ee260b20d09518bddc1d91bd1b06818d08e5e7d0c21131f8c1ffdc&w=900" 
+    }
+
+    ]
+            
+}
