@@ -114,7 +114,7 @@ export default function Home() {
           </ImagesSlider>
     </div>
       </div>
-      <div className='flex md:flex-row flex-col my-[10vh] justify-evenly text-gray-800 font-bold text-2xl text-center '>
+      <div className='flex md:flex-row gap-[10vh] md:gap-0 flex-col my-[10vh] justify-evenly text-gray-800 font-bold text-2xl text-center '>
         <WobbleCard containerClassName="w-[80vw] md:w-[25vw] bg-pink-800 h-[50vh]" className="pt-[5vh]">
             <div className="h-[50vh] w-[80vw] md:w-[25vw] bg-[url('https://img.freepik.com/premium-photo/young-woman-after-shopping-with-bags_85869-3522.jpg?w=900')] bg-cover rounded-[6vmin] pt-[30vh]">
           <h1>BOOK A HOME TRIAL</h1>
@@ -145,7 +145,7 @@ export default function Home() {
         </div>
     <div>
         <div className='explore h-[68vh] w-full  flex flex-col border-b-2 border-black relative mb-[10vh]'>
-          <div className='w-[15vw] h-[14vh] absolute top-[-7vh] right-[40vw] z-20 bg-white border-2 border-black rounded-3xl'>
+          <div className='md:w-[15vw] w-[35vw] h-[14vh] absolute top-[-7vh] right-[40vw] z-20 bg-white border-2 border-black rounded-3xl'>
             <Link href={'/product'} >
               <h1 className="text-center text-3xl py-[4vh]">EXPLORE</h1></Link>
           </div>

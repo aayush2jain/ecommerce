@@ -42,12 +42,12 @@ export default function cart(){
                     <input type="date" id="birthdate" name="birthdate"></input>
             <h1 className='font-bold mt-[2vh]'>SELECT TIME FOR HOME TRIAL</h1>
                     <input type="time" id="appointment-time" name="appointment-time"></input>
-             <div className='outline-dashed w-[30vw] py-[2vh] px-[1vw] mt-[30vh]'>
+             <div className='outline-dashed w-[30vw] py-[2vh] px-[1vw] mt-[10vh]'>
              <h1 className='font-bold'>Price Details</h1>
              <h1 className='my-[2vh]'>Convience fees</h1>
              <h1 className='mb-[2vh] font-bold'>Total amount</h1>
              </div>
-            <div className='w-[14vw] text-center ml-[7vw] font-medium rounded-lg bg-pink-300 mt-[1vh] py-[2vh] '>
+            <div className='w-[14vw] text-center mb-[10vh] ml-[7vw] font-medium rounded-lg bg-pink-300 mt-[1vh] py-[2vh] '>
                 Book Now
             </div>
         </div>

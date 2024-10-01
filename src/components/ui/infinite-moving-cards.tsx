@@ -92,11 +92,11 @@ export const InfiniteMovingCards = ({
                     >
                         <blockquote>
                            
-                            <div className='relative mt-[10vh] ml-[10vw]'>
-                                <div className='h-[40vh] w-[22vw] bg-red-500  top-0 absolute z-10 rounded-3xl'>
+                            <div className='relative mt-[10vh] md:ml-[10vw] md:mx-0 mx-[15vw]'>
+                                <div className='h-[40vh] md:w-[22vw] w-[50vw] bg-red-500  top-0 absolute z-10 rounded-3xl'>
                                     <img src={item.image} className="h-[40vh] rounded-3xl" alt="d"></img>
                                 </div>
-                                <div className='h-[50vh] w-[20vw] bg-white text-black  top-0 left-[1vw] absolute rounded-3xl'>
+                                <div className='h-[50vh] md:w-[20vw] w-[50vw] bg-white text-black  top-0 left-[1vw] absolute rounded-3xl'>
                                     <h1 className="mt-[42.5vh] text-[3vh] text-center font-medium">
                                         {item.name}
                                     </h1>
