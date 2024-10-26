@@ -10,11 +10,8 @@ import logo from '../../public/picture/logo.png';
 import { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../components/ui/navbar-menu";
 export default function Navbar(){
-   
     const [active, setActive] = useState<string | null>(null);
-
     return(
-           
         <>
             <div className='nav bg-white text-black pb-[2vh] md:pb-[4vh]'>
                 <div className='nav1 flex flex-row pt-[2vh] md:pt-[6vh] md:pl-[3vw] '>
@@ -28,33 +25,37 @@ export default function Navbar(){
                             <Menu setActive={setActive}>
                                 <MenuItem setActive={setActive} active={active} item="MEN">
                                     <div className="flex flex-col space-y-4 text-sm text-black ">
-                                        <HoveredLink href="/product">Kids</HoveredLink>
-                                        <HoveredLink href="/product">Men</HoveredLink>
-                                        <HoveredLink href="/product">Women</HoveredLink>
+                                        <HoveredLink href="/product">Shirt</HoveredLink>
+                                        <HoveredLink href="/product">Cap</HoveredLink>
+                                        <HoveredLink href="/product">Jeans</HoveredLink>
+                                        <HoveredLink href="/product">Hoodie</HoveredLink>
                                     </div>
                                 </MenuItem>
                                 <FaChevronDown className="text-lg mt-[1vh]" />
                                 <MenuItem setActive={setActive} active={active} item="WOMEN">
                                     <div className="flex flex-col space-y-4 text-sm text-black">
-                                        <HoveredLink href="/product">Kids</HoveredLink>
-                                        <HoveredLink href="/product">Men</HoveredLink>
-                                        <HoveredLink href="/product">Women</HoveredLink>
+                                        <HoveredLink href="/product">Shirt</HoveredLink>
+                                        <HoveredLink href="/product">Cap</HoveredLink>
+                                        <HoveredLink href="/product">Jeans</HoveredLink>
+                                        <HoveredLink href="/product">Hoodie</HoveredLink>
                                     </div>
                                 </MenuItem>
                                 <FaChevronDown className="text-lg mt-[1vh]" />
                                 <MenuItem setActive={setActive} active={active} item="KIDS">
                                     <div className="flex flex-col space-y-4 text-sm text-black z-50">
-                                        <HoveredLink href="/product">Kids</HoveredLink>
-                                        <HoveredLink href="/product">Men</HoveredLink>
-                                        <HoveredLink href="/product">Women</HoveredLink>
+                                        <HoveredLink href="/product">Shirt</HoveredLink>
+                                        <HoveredLink href="/product">Cap</HoveredLink>
+                                        <HoveredLink href="/product">Jeans</HoveredLink>
+                                        <HoveredLink href="/product">Hoodie</HoveredLink>
                                     </div>
                                 </MenuItem>
                                 <FaChevronDown className="text-lg mt-[1vh]" />
                                 <MenuItem setActive={setActive} active={active} item="BRANDS">
                                     <div className="flex flex-col space-y-4 text-sm text-black z-50">
-                                        <HoveredLink href="/product">Kids</HoveredLink>
-                                        <HoveredLink href="/product">Men</HoveredLink>
-                                        <HoveredLink href="/product">Women</HoveredLink>
+                                        <HoveredLink href="/product">Shirt</HoveredLink>
+                                        <HoveredLink href="/product">Cap</HoveredLink>
+                                        <HoveredLink href="/product">Jeans</HoveredLink>
+                                        <HoveredLink href="/product">Hoodie</HoveredLink>
                                     </div>
                                 </MenuItem>
                                 <FaChevronDown className="text-lg mt-[1vh]" />
