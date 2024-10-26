@@ -57,9 +57,9 @@ export default function Item() {
                     </CardBody>
                 </CardContainer>
                 <div className="w-[60vw] h-auto mt-[10vh] md:mt-0  flex flex-col mx-[10vw] md:mx-0">
-                    <h1 className="text-3xl font-bold">Product Name</h1>
+                    <h1 className="text-3xl font-bold">{itemData.title}</h1>
                     <div className="flex flex-row mt-[3vh] ">
-                        <h1 className="text-3xl font-bold">₹ 3,199</h1>
+                        <h1 className="text-3xl font-bold">${itemData.price}</h1>
                         <h1 className="text-xl text-green-500 "> 20 % off</h1>
                     </div>
                     <div className="flex flex-row">

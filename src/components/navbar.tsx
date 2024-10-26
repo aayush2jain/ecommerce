@@ -66,7 +66,7 @@ export default function Navbar(){
                         </div>
                     </div>
                     <div className='sign in flex flex-row md:pl-[10vw] md:gap-[2vw] invisible md:visible'>
-                        <a href="/wish"><GoHeart size={'5vh'} /></a>
+                        {/* <a href="/wish"><GoHeart size={'5vh'} /></a> */}
                         <a href="/cart"><GiShoppingBag size={'5vh'} /></a>
                         <a href="/signin"><h1 className='text-black text-2xl'>SIGN IN</h1></a>
                     </div>

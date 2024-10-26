@@ -145,7 +145,7 @@ export default function Home() {
         </div>
     <div>
         <div className='explore h-[68vh] w-full  flex flex-col border-b-2 border-black relative mb-[10vh]'>
-          <div className='md:w-[15vw] w-[35vw] h-[14vh] absolute top-[-7vh] right-[40vw] z-20 bg-white border-2 border-black rounded-3xl'>
+          <div className='md:w-[15vw] w-[55vw] h-[14vh] absolute top-[-7vh] right-[40vw] z-20 bg-white border-2 border-black rounded-3xl'>
             <Link href={'/product'} >
               <h1 className="text-center text-3xl py-[4vh]">EXPLORE</h1></Link>
           </div>

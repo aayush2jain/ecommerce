@@ -36,7 +36,7 @@ export default function product(){
             </div>
             <div className='md:w-[80vw] w-[100vw] h-auto bg-white flex flex-wrap justify-around'>
                  {data.product.map((item)=>(
-                     <div className='md:w-[20vw] w-[80vw] md:h-[55vh] h-[60vh] bg-white flex flex-col p-[1vw] rounded-xl md:mt-[10vh] border-2' onClick={() => handleRedirect(item.id)} >
+                     <div className='md:w-[20vw] w-[80vw] md:h-[58vh] h-[60vh] bg-white flex flex-col p-[1vw] rounded-xl md:mt-[10vh] border-2' onClick={() => handleRedirect(item.id)} >
                         <div className='relative'>
                          <img alt="" className='md:w-[18vw] w-[70vw] md:h-[40vh] h-[40vh] mx-auto' src={item.image}></img>
                              <div className='absolute h-[5vh] md:w-[5vw] w-[10vw] bg-red-200 bottom-0 right-0 flex items-center gap-3 px-1 '>
@@ -46,7 +46,7 @@ export default function product(){
                          </div>
                          <h1 className='pt-[2vh] ml-[10vw] md:ml-0'>Brand Image</h1>
                          <h1 className='ml-[10vw]  md:ml-0'>{item.title}</h1>
-                         <h1 className='ml-[10vw] md:ml-0'>${item.price}</h1>
+                         <h1 className='ml-[10vw] md:pb-[10vh] md:ml-0'>${item.price}</h1>
                         
                          
                      </div>
