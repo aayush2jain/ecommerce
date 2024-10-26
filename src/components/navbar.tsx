@@ -28,37 +28,33 @@ export default function Navbar(){
                             <Menu setActive={setActive}>
                                 <MenuItem setActive={setActive} active={active} item="MEN">
                                     <div className="flex flex-col space-y-4 text-sm text-black ">
-                                        <HoveredLink href="/web-dev">Web Development</HoveredLink>
-                                        <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-                                        <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-                                        <HoveredLink href="/branding">Branding</HoveredLink>
+                                        <HoveredLink href="/product">Kids</HoveredLink>
+                                        <HoveredLink href="/product">Men</HoveredLink>
+                                        <HoveredLink href="/product">Women</HoveredLink>
                                     </div>
                                 </MenuItem>
                                 <FaChevronDown className="text-lg mt-[1vh]" />
                                 <MenuItem setActive={setActive} active={active} item="WOMEN">
                                     <div className="flex flex-col space-y-4 text-sm text-black">
-                                        <HoveredLink href="/web-dev">Web Development</HoveredLink>
-                                        <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-                                        <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-                                        <HoveredLink href="/branding">Branding</HoveredLink>
+                                        <HoveredLink href="/product">Kids</HoveredLink>
+                                        <HoveredLink href="/product">Men</HoveredLink>
+                                        <HoveredLink href="/product">Women</HoveredLink>
                                     </div>
                                 </MenuItem>
                                 <FaChevronDown className="text-lg mt-[1vh]" />
                                 <MenuItem setActive={setActive} active={active} item="KIDS">
                                     <div className="flex flex-col space-y-4 text-sm text-black z-50">
-                                        <HoveredLink href="/web-dev">Web Development</HoveredLink>
-                                        <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-                                        <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-                                        <HoveredLink href="/branding">Branding</HoveredLink>
+                                        <HoveredLink href="/product">Kids</HoveredLink>
+                                        <HoveredLink href="/product">Men</HoveredLink>
+                                        <HoveredLink href="/product">Women</HoveredLink>
                                     </div>
                                 </MenuItem>
                                 <FaChevronDown className="text-lg mt-[1vh]" />
                                 <MenuItem setActive={setActive} active={active} item="BRANDS">
                                     <div className="flex flex-col space-y-4 text-sm text-black z-50">
-                                        <HoveredLink href="/web-dev">Web Development</HoveredLink>
-                                        <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-                                        <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-                                        <HoveredLink href="/branding">Branding</HoveredLink>
+                                        <HoveredLink href="/product">Kids</HoveredLink>
+                                        <HoveredLink href="/product">Men</HoveredLink>
+                                        <HoveredLink href="/product">Women</HoveredLink>
                                     </div>
                                 </MenuItem>
                                 <FaChevronDown className="text-lg mt-[1vh]" />
