@@ -1,35 +1,67 @@
-"use client"
-import React, { useState } from "react";
-import back from '../../../public/picture/back.png'
+"use client";
+import React from "react";
+import back from '../../../public/picture/back.png';
 import Image from "next/image";
-export default function signup(){
-    return(
-        <>  
-        <div className="relative">
-            <div className={`flex justify-center absolute items-center w-[100vw] h-[100vh] bg-[url()] bg-cover blur-sm  brightness-75`}>
-                <Image src={back} className="h-[100vh] w-[100vw]" alt="" ></Image>
-            </div>
 
-            <div className=' w-[30vw] h-[85vh] rounded-3xl flex flex-col absolute top-[10vh] left-[40vw] bg-white' >
-                <h1 className='mt-[8vh] font-semibold my-4 text-xl mx-[3.5vw] '>SIGN UP</h1>
-                <input type='text' placeholder='Full Name' className='py-[2vh] mb-[2vh] mx-[2.5vw] pl-4 rounded-xl bg-gray-200'></input>
-                <input type='text' placeholder='Email' className='py-[2vh] mb-[2vh] mx-[2.5vw] pl-4 rounded-xl bg-gray-200'></input>
-                    <div className=' mb-[2vh] mx-[2.5vw] pl-4 rounded-xl bg-gray-200 flex flex-row'>
-                        <h1 className='py-[2vh]'>+91</h1>
-                        <input type='text' placeholder='Enter Your Mobile' className='ml-[1vw] py-[2vh] focus:outline-none bg-gray-200'></input>
-
-                    </div>
-                <input type='text' placeholder='Password' className='py-[2vh] mb-[2vh] mx-[2.5vw] pl-4 rounded-xl bg-gray-200'></input>
-                <button className='width-[10vw] mx-[2.5vw] py-3 bg-black text-white text-xl rounded-3xl'>Get OTP</button>
-                <div className='flex flex-row rounded-xl border-black border-2 w-[25vw] ml-[2.5vw] mt-2'>
-                    <div className=" mt-6 ml-[5vw]">
-                        <img src='https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg' alt=''></img>
-                    </div>
-                    <button className='width-[10vw] mr-[2.5vw] py-3 text-xl  mt-[2vh]'>Continue using Google</button>
+export default function Signup() {
+    return (
+        <>
+            <div className="relative min-h-screen flex items-center justify-center">
+                {/* Background Image */}
+                <div className="absolute inset-0 w-full h-full bg-cover bg-center blur-sm brightness-75">
+                    <Image src={back} className="h-full w-full object-cover" alt="Background Image" />
                 </div>
-                <a href="/signin" className='text-center mt-1 underline text-black decoration-black' >Already Registered? Sign in</a>
+
+                {/* Signup Card */}
+                <div className="relative w-[90vw] sm:w-[80vw] md:w-[60vw] lg:w-[40vw] xl:w-[30vw] h-[85vh] bg-white rounded-3xl flex flex-col items-center shadow-lg p-6">
+                    <h1 className="text-2xl sm:text-3xl font-semibold mt-[4vh] mb-4">SIGN UP</h1>
+
+                    {/* Input Fields */}
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        className="w-[80%] py-3 mb-4 px-4 rounded-xl bg-gray-200 outline-none"
+                    />
+                    <input
+                        type="text"
+                        placeholder="Email"
+                        className="w-[80%] py-3 mb-4 px-4 rounded-xl bg-gray-200 outline-none"
+                    />
+                    <div className="w-[80%] flex items-center bg-gray-200 rounded-xl mb-4 px-4">
+                        <span className="text-lg">+91</span>
+                        <input
+                            type="text"
+                            placeholder="Enter Your Mobile"
+                            className="w-full ml-2 py-3 bg-transparent outline-none"
+                        />
+                    </div>
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        className="w-[80%] py-3 mb-4 px-4 rounded-xl bg-gray-200 outline-none"
+                    />
+
+                    {/* Get OTP Button */}
+                    <button className="w-[80%] py-3 text-xl text-white bg-black rounded-3xl">
+                        Get OTP
+                    </button>
+
+                    {/* Continue with Google */}
+                    <div className="w-[80%] mt-4 flex items-center border-2 border-black rounded-xl">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+                            alt="Google Logo"
+                            className="w-6 h-6 ml-4"
+                        />
+                        <button className="flex-grow py-3 text-xl">Continue using Google</button>
+                    </div>
+
+                    {/* Sign In Link */}
+                    <a href="/signin" className="mt-4 text-center text-black underline decoration-black">
+                        Already Registered? Sign in
+                    </a>
+                </div>
             </div>
-         </div>
         </>
-    )
+    );
 }
