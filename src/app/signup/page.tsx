@@ -13,7 +13,7 @@ export default function Signup() {
                 </div>
 
                 {/* Signup Card */}
-                <div className="relative w-[90vw] sm:w-[80vw] md:w-[60vw] lg:w-[40vw] xl:w-[30vw] h-[85vh] bg-white rounded-3xl flex flex-col items-center shadow-lg p-6">
+                <div className="relative  w-[90vw] sm:w-[80vw] md:w-[60vw] lg:w-[40vw] xl:w-[30vw] h-full bg-white rounded-3xl flex flex-col items-center shadow-lg p-6">
                     <h1 className="text-2xl sm:text-3xl font-semibold mt-[4vh] mb-4">SIGN UP</h1>
 
                     {/* Input Fields */}
